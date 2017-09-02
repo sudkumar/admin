@@ -10,13 +10,13 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
         <!-- styles -->
-        <link rel="stylesheet" type="text/css" href="{{ mix('/css/app.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ URL::asset(mix('css/app.css')) }}">
     </head>
     <body>
         <h1 class="text-center">Tourepedia Admin Portal</h1>
         <div id="app"><app></app></div>
-        <script type="text/javascript" src="{{ mix('js/manifest.js') }}"></script>
-        <script type="text/javascript" src="{{ mix('js/vendor.js') }}"></script>
-        <script type="text/javascript" src="{{ mix('js/app.js') }}"></script>
+        <script type="text/javascript" src="{{ URL::asset(mix('js/manifest.js')) }}"></script>
+        <script type="text/javascript" src="{{ URL::asset(mix('js/vendor.js')) }}"></script>
+        <script type="text/javascript" src="{{ URL::asset(mix('js/app.js')) }}"></script>
     </body>
 </html>
